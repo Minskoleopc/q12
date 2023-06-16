@@ -59,7 +59,6 @@ public class day11 {
 		
 		
 		// program 3
-		
 		String fatherName = "shirish";
 		int totalC = fatherName.length();
 		System.out.println(totalC);
