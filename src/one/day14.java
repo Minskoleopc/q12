@@ -66,7 +66,7 @@ public class day14 {
 //			{11,22,33,44},
 //			{555,666,777,888}
 //		}
-		
+
 		// program 1
 		// for loop
 
@@ -83,10 +83,7 @@ public class day14 {
 
 		int[][] numbers2 = {
 
-				{ 11, 22, 33 },
-				{ 44, 55, 66 }, 
-				{ 77, 88, 99 } 
-			};
+				{ 11, 22, 33 }, { 44, 55, 66 }, { 77, 88, 99 } };
 
 		for (int i = 0; i < numbers2.length; i++) {
 			int[] arr = numbers2[i];
@@ -110,17 +107,35 @@ public class day14 {
 			r1++;
 		}
 
-	
 		// program 4
-		
-		for(int [] row:numbers2) {
-			for(int col : row) {
+
+		for (int[] row : numbers2) {
+			for (int col : row) {
 				System.out.println(col);
 			}
 		}
-		
-		
 
+		// program 5
+
+		String[] cities5 = { "pune", "banglore", "kolkata", "chennai" };
+
+		for (String city : cities5) {
+			System.out.println(city);
+		}
+
+		String[][] cities6 = { { "pune", "nagpur" }, { "jaipur", "ajmeer" }, { "bhopal", "indore" }
+
+		};
+		
+		
+		for(String [] state:cities6) {
+			for(String city:state) {
+				System.out.println(city);
+			}
+		}
+		
+		System.out.println(cities6[0][1]);
+		
 		
 
 	}
