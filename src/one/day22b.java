@@ -1,6 +1,6 @@
 package one;
 
-public class day22 {
+public class day22b {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -46,13 +46,12 @@ class PNB extends WorldBank {
 		this.branchName = bn;	
 	}
 	// Overriding the parent methods loan and save
-	@Override
+	
 	public void save() {
 		System.out.println("I am save from PNB pune");
 		
 	}
 	
-	@Override
 	public void loan() {
 		System.out.println("I am loan from PNB pune");
 	}
@@ -71,14 +70,12 @@ class SBI extends WorldBank {
 	
 	// Overriding the parent methods loan and save
 	
-	@Override
+
 	public void save() {
 		System.out.println("I am save from SBI pune");
 		
 	}
 	
-	
-	@Override
 	public void loan() {
 		System.out.println("I am loan from SBI pune");
 	}
