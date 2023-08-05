@@ -52,7 +52,7 @@ public class day35 {
 		}
 		
 		
-		// Iterator 
+		//using Iterator 
 		
 		
 		
