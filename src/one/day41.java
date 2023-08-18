@@ -1,19 +1,14 @@
 package one;
 
 enum Sizeee {
-	
 	SMALL , MEDIUM , LARGE , EXTRALARGE
-	
 }
 
-
 class TestSize {
-	
 	Sizeee Tshirt;
 	public TestSize(Sizeee tshirt) {
 		this.Tshirt = tshirt;
-	}
-	
+	}	
 	public void buyTshirt() {
 		switch(Tshirt){
 		case SMALL:
@@ -37,9 +32,6 @@ class TestSize {
 		
 }
 
-
-
-
 public class day41 {
 
 	public static void main(String[] args) {
@@ -49,3 +41,7 @@ public class day41 {
 	}
 
 }
+
+// collection -
+
+
