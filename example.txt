@@ -1,0 +1,6 @@
+Hello world
+I am learning  javascript
+I am learning python
+I am learning sql
+I am learning  git
+I am learning  ruby
